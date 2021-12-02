@@ -1,0 +1,21 @@
+img {
+    height: 200px;
+  }
+  
+  body {
+    touch-action: none;
+  }
+
+  #fadein {
+    animation: fadein 1s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes fadein {
+    from {
+     opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
